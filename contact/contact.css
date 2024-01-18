@@ -1,0 +1,114 @@
+/* css reset  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* background-color:gray */
+}
+nav{
+    padding: 0 5%;
+    height: 15vh;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+nav ul li img{
+    width: 80%;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+.contact-page{
+    font-weight: 700;
+    color: #20bc7e;
+  }
+a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+a:hover{
+    /* font-size: 17px; */
+    font-weight: 700;
+    cursor: pointer;
+}
+body{
+    background-color: #F0F4F5;
+}
+
+.main-section{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 90px; */
+}
+
+form h1{
+    text-align: center;
+}
+
+form{
+    width: 100%;
+    gap: 10px;
+    padding: 15px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    /* align-items: center;  */
+}
+label{
+    font-weight: 500;
+}
+#Name, #Email{
+    width: 100%;
+    border-radius: 5px;
+    border: transparent;
+    font-weight: 300;
+    padding: 5px 10px;
+}
+#Message{
+    width: 100%;
+    resize: none;
+    border: transparent;
+    border-radius: 5px;
+    height: 100px;
+    padding: 5px 10px;
+    font-weight: 300;
+}
+button{
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        background-color: #20bc7e;
+        padding: 5px 10px;
+        font-size: 15px;
+        font-weight: 500;
+        
+}
+button:hover{
+    border: 1px solid #20bc7e;
+        color:#20bc7e;
+        background-color: white;
+        padding: 5px 10px;
+        font-size: 15px;
+        font-weight: 500;
+        
+}
